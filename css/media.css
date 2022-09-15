@@ -2,7 +2,8 @@
 
 @media screen and (max-width: 780px) {
     .container {
-        width: 780px; 
+        max-width: 780px; 
+        width: 100%;
     }
 }
 
@@ -11,7 +12,8 @@
 
 @media screen and (max-width: 480px) {      
     .container{
-        width: 480px;
+        max-width: 480px;
+        width: 100%;
     }
     .row {
         flex-direction: column;
