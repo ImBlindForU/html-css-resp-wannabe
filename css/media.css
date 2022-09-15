@@ -1,1 +1,46 @@
 /* Tablet */
+
+@media screen and (max-width: 780px) {
+    .container {
+        width: 780px; 
+    }
+}
+
+
+/* phone */
+
+@media screen and (max-width: 480px) {      
+    .container{
+        width: 480px;
+    }
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .lessons .col {
+        width: 100%;
+    }
+    .steps .col {
+        width: 100%;
+    }
+    .card{
+        margin-bottom: 3rem;
+    }
+    .steps {
+        margin: 0;
+    }
+    .why-us{
+        background-color:#222222;
+        padding-top: 3rem;
+        margin-bottom: 0;
+    }
+    .why-us .col-left {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    
+    .why-us .col-right {
+        width: 100%;
+    }
+
+}
